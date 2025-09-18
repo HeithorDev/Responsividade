@@ -56,6 +56,7 @@ aside{
 }
 
 @media only screen and (max-width: 600px){
+    main{ width: 100%;}
     aside{ display: none;}
     #a{ width: 100%; background-color: rgb(255, 0, 0);}
     #b{ width: 100%;}
@@ -65,4 +66,5 @@ aside{
 @media only screen and (orientation: landscape){
     body{ background-color: cadetblue;}
 }
+
 
